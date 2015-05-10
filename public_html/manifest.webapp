@@ -1,0 +1,14 @@
+{
+  "name": "Hangman",
+  "description": "Hangman My Style",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/icons/icon-512.png",
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Obuda University",
+    "url": "http://www.uni-obuda.hu"
+  },
+  "default_locale": "en"
+}

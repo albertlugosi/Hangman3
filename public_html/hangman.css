@@ -1,0 +1,58 @@
+body {
+    background-color:       rgb(205,205,205);
+}
+
+#title_row {
+    background-color:       rgb(249,124,23);
+    color:                  rgb(255,255,247);
+    height:                 45px;
+    font-size:              12pt;
+    font-style:             italic;
+    font-weight:            bold;
+    text-align:             center;
+}
+
+#solution {
+    background-color:       rgb(255,255,247);
+    height:                 45px;
+    padding:                1px;
+    text-align:             center;
+}
+
+#buttons {
+    padding-bottom:         10px;
+    text-align:             center;
+}
+
+#graphics {
+    text-align:             center;
+}
+
+#message_area {
+    background-color:       rgb(255,255,247);
+    height:                 45px;
+    padding:                1px;
+    text-align:             center;
+}
+
+#game_options {
+    padding:                8px;
+    text-align:             center;    
+}
+
+#revelation {
+    font-family:            Courier, sans-serif;
+    font-size:              14pt;
+    letter-spacing:         2pt;
+}
+
+.single_letter_button {
+    width:                  18px;
+}
+
+.row_of_buttons {
+    padding-top:            3px;
+}
+
+#gallows {
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hangman</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="hangman.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="title_row">
+            <h1>Hangman</h1>
+        </div>
+        <div id="solution">
+            <p id="revelation">Placeholder of solution...</p>
+        </div>
+        <div id="buttons">
+            <div class="row_of_buttons">
+                <button type="button" id="letter_a" class="single_letter_button">A</button>
+                <button type="button" id="letter_b" class="single_letter_button">B</button>
+                <button type="button" id="letter_c" class="single_letter_button">C</button>
+                <button type="button" id="letter_d" class="single_letter_button">D</button>
+                <button type="button" id="letter_e" class="single_letter_button">E</button>
+                <button type="button" id="letter_f" class="single_letter_button">F</button>
+                <button type="button" id="letter_g" class="single_letter_button">G</button>
+                <button type="button" id="letter_h" class="single_letter_button">H</button>
+                <button type="button" id="letter_i" class="single_letter_button">I</button>
+                <button type="button" id="letter_j" class="single_letter_button">J</button>
+                <button type="button" id="letter_k" class="single_letter_button">K</button>
+                <button type="button" id="letter_l" class="single_letter_button">L</button>
+                <button type="button" id="letter_m" class="single_letter_button">M</button>
+            </div>
+            <div class="row_of_buttons">
+                <button type="button" id="letter_n" class="single_letter_button">N</button>
+                <button type="button" id="letter_o" class="single_letter_button">O</button>
+                <button type="button" id="letter_p" class="single_letter_button">P</button>
+                <button type="button" id="letter_q" class="single_letter_button">Q</button>
+                <button type="button" id="letter_r" class="single_letter_button">R</button>
+                <button type="button" id="letter_s" class="single_letter_button">S</button>
+                <button type="button" id="letter_t" class="single_letter_button">T</button>
+                <button type="button" id="letter_u" class="single_letter_button">U</button>
+                <button type="button" id="letter_v" class="single_letter_button">V</button>
+                <button type="button" id="letter_w" class="single_letter_button">W</button>
+                <button type="button" id="letter_x" class="single_letter_button">X</button>
+                <button type="button" id="letter_y" class="single_letter_button">Y</button>
+                <button type="button" id="letter_z" class="single_letter_button">Z</button>
+            </div>
+        </div>
+        <div id="graphics">
+            <img id="gallows" src="images/hangman00.png" alt="Gallows">
+        </div>
+        <div id ="message_area">
+            <p id="message">Start guessing...</p>
+        </div>
+        <div id="game_options">
+            <button type="button" id="btn_new_game">New game</button>
+        </div>
+    </body>
+    
+    <script src="hangman.js" type="text/javascript"></script>
+</html>
